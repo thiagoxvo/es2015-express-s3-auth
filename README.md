@@ -7,6 +7,6 @@
  - Heroku
 
 ###Running
-
-`npm install`
-`npm run auto-test`
+```
+npm install  
+npm run auto-test
