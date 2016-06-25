@@ -12,7 +12,7 @@
     "auto-build": "babel -w src/ -d build -s",
     "start": "node build/index.js",
     "auto-start": "nodemon --exec \"npm start\" --ignore build/*",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
