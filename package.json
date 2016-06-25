@@ -7,7 +7,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build",
     "build": "./node_modules/.bin/babel src/ -d build -s",
     "auto-build": "./node_modules/.bin/babel -w src/ -d build -s",
     "start": "node build/index.js",
