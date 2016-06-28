@@ -7,10 +7,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel src/ -d build -s",
-    "auto-build": "./node_modules/.bin/babel -w src/ -d build -s",
+    "build": "babel src/ -d build -s",
+    "auto-build": "babel -w src/ -d build -s",
     "start": "node build/index.js",
-    "auto-start": "./node_modules/.bin/nodemon --exec \"npm start\" --ignore build/*",
+    "auto-start": "nodemon --exec \"npm start\" --ignore build/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
